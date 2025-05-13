@@ -47,7 +47,7 @@ O painel de indicadores foi desenvolvido com **Google Looker Studio** e pode ser
 
 Para detalhes completos sobre a solução (estratégia de CDC, DAGs, modelagem com DBT e SQLs analíticas), consulte o arquivo:
 
-🔗 [Documento técnico](Documento_Tecnico_MovieStream.docx)
+🔗 [Documento técnico](Documento_Tecnico_MovieStream.pdf)
 
 
 ---
