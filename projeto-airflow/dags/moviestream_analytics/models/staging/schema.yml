@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: landing
+    description: Tabelas carregadas na camada de landing pelo Airflow.
+    schema: public
+    tables:
+      - name: customer
+      - name: payment
+      - name: rental
+      - name: film
+      - name: inventory
+      - name: store
+
+models:
+  - name: stg_customer
+    description: Tabela de staging para clientes.
+  - name: stg_payment
+    description: Tabela de staging para pagamentos.
+  - name: stg_rental
+    description: Tabela de staging para locações.
+  - name: stg_film
+    description: Tabela de staging para filmes.
+  - name: stg_inventory
+    description: Tabela de staging para inventário.
+  - name: stg_store
+    description: Tabela de staging para lojas.

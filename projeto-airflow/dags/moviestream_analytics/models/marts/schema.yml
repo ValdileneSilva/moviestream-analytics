@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: mart_customer_lifetime_value
+    description: Valor total gasto por cliente e tempo desde a primeira locação.
+    columns:
+      - name: customer_id
+        description: ID do cliente.
+      - name: first_rental_date
+        description: Data da primeira locação.
+      - name: total_spent
+        description: Total gasto pelo cliente.
+      - name: days_since_first_rental
+        description: Dias desde a primeira locação.
+
+  - name: mart_film_popularity
+    description: Ranking de filmes mais alugados por mês e ano.
+    columns:
+      - name: film_id
+        description: ID do filme.
+      - name: rental_year
+        description: Ano da locação.
+      - name: rental_month
+        description: Mês da locação.
+      - name: rental_count
+        description: Total de locações.
+
+  - name: mart_store_performance
+    description: Performance das lojas.
+    columns:
+      - name: store_id
+        description: ID da loja.
+      - name: total_rentals
+        description: Quantidade total de locações.
+      - name: total_revenue
+        description: Receita total.
+      - name: num_customers
+        description: Quantidade de clientes atendidos.
